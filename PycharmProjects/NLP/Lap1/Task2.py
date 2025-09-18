@@ -1,5 +1,5 @@
-from RegrexTokenizer import RegrexTokenizer
-from SimpleTokenizer import SimpleTokenizer
+from NLP.src.preprocessing.RegrexTokenizer import RegrexTokenizer
+from NLP.src.preprocessing.SimpleTokenizer import SimpleTokenizer
 
 if __name__ == "__main__":
     sentences= [

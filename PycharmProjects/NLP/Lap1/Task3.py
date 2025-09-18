@@ -1,6 +1,6 @@
-from RegrexTokenizer import RegrexTokenizer
-from SimpleTokenizer import SimpleTokenizer
-from dataset_loaders import load_raw_text_data
+from NLP.src.preprocessing.RegrexTokenizer import RegrexTokenizer
+from NLP.src.preprocessing.SimpleTokenizer import SimpleTokenizer
+from NLP.src.dataset_loaders import load_raw_text_data
 
 if __name__ == "__main__":
     simple = SimpleTokenizer()

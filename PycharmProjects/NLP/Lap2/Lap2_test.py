@@ -1,5 +1,5 @@
-from NLP.Lap1.RegrexTokenizer import  RegrexTokenizer
-from CountVectorizer import CountVectorizer
+from NLP.src.preprocessing.RegrexTokenizer import  RegrexTokenizer
+from NLP.src.representations.CountVectorizer import CountVectorizer
 
 if __name__ == "__main__":
     corpus = [
